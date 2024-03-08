@@ -55,7 +55,7 @@ public class BuyerServiceImpl implements BuyerService{
 			buyerrepo.save(b3);
 			return "password reset done";
 		}
-		return "Please enter correct emailid";
+		return "Please enter correct Emailid";
 	}
 
 }
